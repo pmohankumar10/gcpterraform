@@ -2,7 +2,7 @@ provider "google" {
 #credentials = file(“/root/secret/hostbread-d44243ebddf5.json”)
 project = "Learn project"
 #region = "us-central1"
-zone = "us-central1-b"
+zone = "us-central1-a"
 }
 
 resource "google_compute_instance" "vm_instance" {
